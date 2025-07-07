@@ -4,106 +4,133 @@ import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      {/* Charmander Card */}
+      
       <View style={styles.card}>
         <View style={styles.header}>
-          <Text style={styles.name}>Charmander</Text>
-          <Text style={styles.hp}>❤️ HP: 39</Text>
+          <Text style={styles.name}>Mega Sceptile</Text>
+          <Text style={styles.hp}>❤️ HP: 70</Text>
         </View>
 
         <Image
-          source={require("@/assets/images/charmander1.png")}
+          source={require("@/assets/images/Mega.webp")}
           style={styles.image}
           resizeMode="contain"
         />
 
-        <View style={[styles.typeBadge, { borderColor: "#f97316" }]}>
-          <Text style={[styles.typeText, { color: "#f97316" }]}>🔥 Fire</Text>
+        <View style={[styles.typeBadge, { borderColor: "#2020B3" }]}>
+          <Text style={[styles.typeText, { color: "#2020B3" }]}>🍃 Grass/Dragon</Text>
         </View>
 
         <Text style={styles.sectionLabel}>Moves:</Text>
-        <Text style={styles.sectionText}>Scratch, Ember, Growl, Leer</Text>
+        <Text style={styles.sectionText}>Leaf Storm, Dragon Pulse, Fucos Blast, Headen Power Fire</Text>
 
         <Text style={styles.sectionLabel}>Weakness:</Text>
-        <Text style={styles.sectionText}>Water, Rock</Text>
+        <Text style={styles.sectionText}>Poison, Bug, Ice</Text>
       </View>
 
-      {/* Pikachu Card */}
       <View style={styles.card}>
         <View style={styles.header}>
-          <Text style={styles.name}>Pikachu</Text>
-          <Text style={styles.hp}>⚡ HP: 35</Text>
+          <Text style={styles.name}>Mega Gardevoir</Text>
+          <Text style={styles.hp}>❤️ HP: 68</Text>
         </View>
 
         <Image
-          source={require("@/assets/images/pikachu2.png")}
+          source={require("@/assets/images/Mega_Gardevoir-removebg-preview.png")}
           style={styles.image}
           resizeMode="contain"
         />
 
-        <View style={[styles.typeBadge, { borderColor: "#facc15" }]}>
-          <Text style={[styles.typeText, { color: "#facc15" }]}>⚡ Electric</Text>
+        <View style={[styles.typeBadge, { borderColor: "#2020B3" }]}>
+          <Text style={[styles.typeText, { color: "#2020B3" }]}>🧚 Fairy/Psychic</Text>
         </View>
 
         <Text style={styles.sectionLabel}>Moves:</Text>
         <Text style={styles.sectionText}>
-          Thunder Shock, Quick Attack, Tail Whip, Electro Ball
+          hyper Voice, Psychic/Psyshock, Focus Blast, Calm Mind
         </Text>
 
         <Text style={styles.sectionLabel}>Weakness:</Text>
-        <Text style={styles.sectionText}>Ground</Text>
+        <Text style={styles.sectionText}>Ghost, Steel, Poison</Text>
       </View>
 
-      {/* Mewtwo Card */}
+    
       <View style={styles.card}>
         <View style={styles.header}>
-          <Text style={styles.name}>Mewtwo</Text>
-          <Text style={styles.hp}>🧠 HP: 106</Text>
+          <Text style={styles.name}>Mega Venusaur</Text>
+          <Text style={styles.hp}>❤️ HP: 80</Text>
         </View>
 
         <Image
-          source={require("@/assets/images/mewtwo.jpg")}
+          source={require("@/assets/images/Mega Venasaur.webp")}
           style={styles.image}
           resizeMode="contain"
         />
 
-        <View style={[styles.typeBadge, { borderColor: "#a78bfa" }]}>
-          <Text style={[styles.typeText, { color: "#a78bfa" }]}>🔮 Psychic</Text>
+        <View style={[styles.typeBadge, { borderColor: "#2020B3" }]}>
+          <Text style={[styles.typeText, { color: "#2020B3" }]}>🍃 Grass/Poison</Text>
         </View>
 
         <Text style={styles.sectionLabel}>Moves:</Text>
         <Text style={styles.sectionText}>
-          Psychic, Shadow Ball, Recover, Barrier
+          Giga Drain, Sludge Bomb,Leech Seed, Hidden Power Fire
         </Text>
 
         <Text style={styles.sectionLabel}>Weakness:</Text>
-        <Text style={styles.sectionText}>Bug, Ghost, Dark</Text>
+        <Text style={styles.sectionText}>Flying, Psychic</Text>
       </View>
 
-      {/* Zekrom Card */}
+    
       <View style={styles.card}>
         <View style={styles.header}>
-          <Text style={styles.name}>Zekrom</Text>
-          <Text style={styles.hp}>🧠 HP: 76</Text>
+          <Text style={styles.name}>Mega Mawile</Text>
+          <Text style={styles.hp}>❤️ HP: 50</Text>
         </View>
 
         <Image
-          source={require("@/assets/images/Zekrom.png")}
+          source={require("@/assets/images/Mega_Mawile-removebg-preview.png")}
           style={styles.image}
           resizeMode="contain"
         />
 
-        <View style={[styles.typeBadge, { borderColor: "#000" }]}>
-          <Text style={[styles.typeText, { color: "#000" }]}>🪨 Rock</Text>
+        <View style={[styles.typeBadge, { borderColor: "#2020B3" }]}>
+          <Text style={[styles.typeText, { color: "#2020B3" }]}>🧚 Steel/Fairy</Text>
         </View>
 
         <Text style={styles.sectionLabel}>Moves:</Text>
         <Text style={styles.sectionText}>
-          Rock, Solid Ball, Heals, Barrier
+          Play Rough, Iron Head, Sucker Punch, Swords Dance
         </Text>
 
         <Text style={styles.sectionLabel}>Weakness:</Text>
-        <Text style={styles.sectionText}>Bug, Ghost, Poison</Text>
+        <Text style={styles.sectionText}>Ground, Fire</Text>
+      </View>
+
+
+
+
+       <View style={styles.card}>
+        <View style={styles.header}>
+          <Text style={styles.name}>Mega Lucario</Text>
+          <Text style={styles.hp}>❤️ HP: 70</Text>
+        </View>
+
+        <Image
+          source={require("@/assets/images/MTc0NDU3Nzg0NzQ1MDc2MDcy-removebg-preview.png")}
+          style={styles.image}
+          resizeMode="contain"
+        />
+
+        <View style={[styles.typeBadge, { borderColor: "#2020B3" }]}>
+          <Text style={[styles.typeText, { color: "#2020B3" }]}>⚔️ Steel/Fighting</Text>
+        </View>
+
+        <Text style={styles.sectionLabel}>Moves:</Text>
+        <Text style={styles.sectionText}>
+          close Combat, Bullet Punch, Iron Tail, Aura Sphere, Flash Canon
+        </Text>
+
+        <Text style={styles.sectionLabel}>Weakness:</Text>
+        <Text style={styles.sectionText}>Ground, Fire, Fighting</Text>
       </View>
 
 
@@ -117,7 +144,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#f2f2f2",
   },
   card: {
-    backgroundColor: "white",
+    backgroundColor: "#CED4F5",
     borderRadius: 12,
     padding: 16,
     marginBottom: 16,
